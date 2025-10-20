@@ -10,6 +10,12 @@ return {
   opts = {
     -- Configure core features of AstroNvim
     -- Mappings can be configured through AstroCore as well.
+    options = {
+      opt = {
+        wrap = true,
+        linebreak = true,
+      },
+    },
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
       -- first key is the mode
